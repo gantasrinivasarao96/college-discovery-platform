@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { colleges } from "../data/colleges";
+import CollegeCard from "../components/CollegeCard";
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -35,28 +36,15 @@ export default function Home() {
           Featured Colleges
         </h2>
 
-        <div className="grid gap-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredColleges.map((college) => (
-            <div
+            <CollegeCard
               key={college.id}
-              className="bg-white p-4 rounded-lg shadow"
-            >
-              <h3 className="font-bold text-black">
-                {college.name}
-              </h3>
-
-              <p className="text-gray-700">
-                {college.location}
-              </p>
-
-              <p className="text-gray-700">
-                Rating: {college.rating}
-              </p>
-
-              <p className="text-gray-700">
-                Fees: ₹{college.fees}
-              </p>
-            </div>
+              name={college.name}
+              location={college.location}
+              rating={college.rating}
+              fees={college.fees}
+            />
           ))}
         </div>
 
@@ -65,6 +53,15 @@ export default function Home() {
             No colleges found
           </div>
         )}
+
+        <div className="mt-8 text-center">
+          <a
+            href="/colleges"
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+          >
+            Explore All Colleges
+          </a>
+        </div>
       </div>
     </main>
   );
