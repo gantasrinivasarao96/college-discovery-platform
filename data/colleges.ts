@@ -5,6 +5,8 @@ export const colleges = [
     location: "Chennai",
     rating: 4.8,
     fees: 250000,
+    branch: "CSE",
+    placement: 2500000,
   },
   {
     id: 2,
@@ -12,6 +14,8 @@ export const colleges = [
     location: "Tiruchirappalli",
     rating: 4.7,
     fees: 180000,
+    branch: "CSE",
+    placement: 1800000,
   },
   {
     id: 3,
@@ -19,6 +23,8 @@ export const colleges = [
     location: "Vellore",
     rating: 4.6,
     fees: 220000,
+    branch: "CSE",
+    placement: 1200000,
   },
   {
     id: 4,
@@ -26,6 +32,8 @@ export const colleges = [
     location: "Mumbai",
     rating: 4.9,
     fees: 260000,
+    branch: "CSE",
+    placement: 2800000,
   },
   {
     id: 5,
@@ -33,6 +41,8 @@ export const colleges = [
     location: "Delhi",
     rating: 4.8,
     fees: 255000,
+    branch: "CSE",
+    placement: 2700000,
   },
   {
     id: 6,
@@ -40,6 +50,8 @@ export const colleges = [
     location: "Warangal",
     rating: 4.6,
     fees: 175000,
+    branch: "CSE",
+    placement: 1600000,
   },
   {
     id: 7,
@@ -47,6 +59,8 @@ export const colleges = [
     location: "Kharagpur",
     rating: 4.8,
     fees: 250000,
+    branch: "CSE",
+    placement: 2400000,
   },
   {
     id: 8,
@@ -54,6 +68,8 @@ export const colleges = [
     location: "Kanpur",
     rating: 4.7,
     fees: 245000,
+    branch: "CSE",
+    placement: 2300000,
   },
   {
     id: 9,
@@ -61,6 +77,8 @@ export const colleges = [
     location: "Roorkee",
     rating: 4.7,
     fees: 240000,
+    branch: "CSE",
+    placement: 2200000,
   },
   {
     id: 10,
@@ -68,6 +86,8 @@ export const colleges = [
     location: "Pilani",
     rating: 4.7,
     fees: 450000,
+    branch: "CSE",
+    placement: 2000000,
   },
   {
     id: 11,
@@ -75,6 +95,8 @@ export const colleges = [
     location: "Mangalore",
     rating: 4.6,
     fees: 185000,
+    branch: "CSE",
+    placement: 1500000,
   },
   {
     id: 12,
@@ -82,6 +104,8 @@ export const colleges = [
     location: "Hyderabad",
     rating: 4.8,
     fees: 320000,
+    branch: "CSE",
+    placement: 2800000,
   },
   {
     id: 13,
@@ -89,6 +113,8 @@ export const colleges = [
     location: "Bangalore",
     rating: 4.6,
     fees: 300000,
+    branch: "CSE",
+    placement: 2200000,
   },
   {
     id: 14,
@@ -96,6 +122,8 @@ export const colleges = [
     location: "Kakinada",
     rating: 4.3,
     fees: 80000,
+    branch: "CSE",
+    placement: 600000,
   },
   {
     id: 15,
@@ -103,6 +131,8 @@ export const colleges = [
     location: "Visakhapatnam",
     rating: 4.4,
     fees: 70000,
+    branch: "CSE",
+    placement: 650000,
   },
   {
     id: 16,
@@ -110,6 +140,8 @@ export const colleges = [
     location: "Hyderabad",
     rating: 4.4,
     fees: 140000,
+    branch: "CSE",
+    placement: 900000,
   },
   {
     id: 17,
@@ -117,6 +149,8 @@ export const colleges = [
     location: "Chennai",
     rating: 4.3,
     fees: 350000,
+    branch: "CSE",
+    placement: 900000,
   },
   {
     id: 18,
@@ -124,6 +158,8 @@ export const colleges = [
     location: "Coimbatore",
     rating: 4.5,
     fees: 280000,
+    branch: "CSE",
+    placement: 1000000,
   },
   {
     id: 19,
@@ -131,6 +167,8 @@ export const colleges = [
     location: "Manipal",
     rating: 4.5,
     fees: 390000,
+    branch: "CSE",
+    placement: 1200000,
   },
   {
     id: 20,
@@ -138,5 +176,7 @@ export const colleges = [
     location: "Vijayawada",
     rating: 4.2,
     fees: 120000,
+    branch: "CSE",
+    placement: 800000,
   },
 ];
