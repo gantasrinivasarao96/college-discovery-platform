@@ -5,7 +5,6 @@ export default function CollegesPage() {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-7xl mx-auto">
-
         <h1 className="text-4xl font-bold text-center text-blue-700 mb-8">
           All Colleges
         </h1>
@@ -14,14 +13,18 @@ export default function CollegesPage() {
           {colleges.map((college) => (
             <CollegeCard
               key={college.id}
+              id={college.id}
               name={college.name}
               location={college.location}
               rating={college.rating}
               fees={college.fees}
+              placement={college.placement}
+              nirf={college.nirf}
+              selected={false}
+              onCompare={() => {}}
             />
           ))}
         </div>
-
       </div>
     </main>
   );

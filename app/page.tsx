@@ -113,15 +113,17 @@ export default function Home() {
 
           {filteredColleges.map((college) => (
             <CollegeCard
-              key={college.id}
-              id={college.id}
-              name={college.name}
-              location={college.location}
-              rating={college.rating}
-              fees={college.fees}
-              selected={selected.includes(college.id)}
-              onCompare={handleCompare}
-            />
+             key={college.id}
+             id={college.id}
+             name={college.name}
+             location={college.location}
+             rating={college.rating}
+             fees={college.fees}
+             placement={college.placement}
+             nirf={college.nirf}
+             selected={selected.includes(college.id)}
+             onCompare={handleCompare}
+           />
           ))}
 
         </div>
