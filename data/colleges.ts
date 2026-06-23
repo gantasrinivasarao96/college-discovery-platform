@@ -7,6 +7,9 @@ export const colleges = [
     fees: 250000,
     branch: "CSE",
     placement: 2500000,
+    nirf: 1,
+    established: 1959,
+    campus: "617 Acres",
   },
   {
     id: 2,
@@ -16,6 +19,9 @@ export const colleges = [
     fees: 180000,
     branch: "CSE",
     placement: 1800000,
+    nirf: 9,
+    established: 1964,
+    campus: "800 Acres",
   },
   {
     id: 3,
@@ -25,6 +31,9 @@ export const colleges = [
     fees: 220000,
     branch: "CSE",
     placement: 1200000,
+    nirf: 11,
+    established: 1984,
+    campus: "372 Acres",
   },
   {
     id: 4,
@@ -34,6 +43,9 @@ export const colleges = [
     fees: 260000,
     branch: "CSE",
     placement: 2800000,
+    nirf: 3,
+    established: 1958,
+    campus: "550 Acres",
   },
   {
     id: 5,
@@ -43,6 +55,9 @@ export const colleges = [
     fees: 255000,
     branch: "CSE",
     placement: 2700000,
+    nirf: 2,
+    established: 1961,
+    campus: "325 Acres",
   },
   {
     id: 6,
@@ -52,6 +67,9 @@ export const colleges = [
     fees: 175000,
     branch: "CSE",
     placement: 1600000,
+    nirf: 21,
+    established: 1959,
+    campus: "248 Acres",
   },
   {
     id: 7,
@@ -61,6 +79,9 @@ export const colleges = [
     fees: 250000,
     branch: "CSE",
     placement: 2400000,
+    nirf: 5,
+    established: 1951,
+    campus: "2100 Acres",
   },
   {
     id: 8,
@@ -70,6 +91,9 @@ export const colleges = [
     fees: 245000,
     branch: "CSE",
     placement: 2300000,
+    nirf: 4,
+    established: 1959,
+    campus: "1055 Acres",
   },
   {
     id: 9,
@@ -79,6 +103,9 @@ export const colleges = [
     fees: 240000,
     branch: "CSE",
     placement: 2200000,
+    nirf: 6,
+    established: 1847,
+    campus: "365 Acres",
   },
   {
     id: 10,
@@ -88,6 +115,9 @@ export const colleges = [
     fees: 450000,
     branch: "CSE",
     placement: 2000000,
+    nirf: 20,
+    established: 1964,
+    campus: "328 Acres",
   },
   {
     id: 11,
@@ -97,6 +127,9 @@ export const colleges = [
     fees: 185000,
     branch: "CSE",
     placement: 1500000,
+    nirf: 12,
+    established: 1960,
+    campus: "295 Acres",
   },
   {
     id: 12,
@@ -106,6 +139,9 @@ export const colleges = [
     fees: 320000,
     branch: "CSE",
     placement: 2800000,
+    nirf: 8,
+    established: 1998,
+    campus: "66 Acres",
   },
   {
     id: 13,
@@ -115,6 +151,9 @@ export const colleges = [
     fees: 300000,
     branch: "CSE",
     placement: 2200000,
+    nirf: 74,
+    established: 1999,
+    campus: "9 Acres",
   },
   {
     id: 14,
@@ -124,6 +163,9 @@ export const colleges = [
     fees: 80000,
     branch: "CSE",
     placement: 600000,
+    nirf: 151,
+    established: 1946,
+    campus: "110 Acres",
   },
   {
     id: 15,
@@ -133,6 +175,9 @@ export const colleges = [
     fees: 70000,
     branch: "CSE",
     placement: 650000,
+    nirf: 43,
+    established: 1926,
+    campus: "422 Acres",
   },
   {
     id: 16,
@@ -142,6 +187,9 @@ export const colleges = [
     fees: 140000,
     branch: "CSE",
     placement: 900000,
+    nirf: 101,
+    established: 1995,
+    campus: "21 Acres",
   },
   {
     id: 17,
@@ -151,6 +199,9 @@ export const colleges = [
     fees: 350000,
     branch: "CSE",
     placement: 900000,
+    nirf: 13,
+    established: 1985,
+    campus: "250 Acres",
   },
   {
     id: 18,
@@ -160,6 +211,9 @@ export const colleges = [
     fees: 280000,
     branch: "CSE",
     placement: 1000000,
+    nirf: 7,
+    established: 2003,
+    campus: "400 Acres",
   },
   {
     id: 19,
@@ -169,6 +223,9 @@ export const colleges = [
     fees: 390000,
     branch: "CSE",
     placement: 1200000,
+    nirf: 15,
+    established: 1957,
+    campus: "313 Acres",
   },
   {
     id: 20,
@@ -178,5 +235,8 @@ export const colleges = [
     fees: 120000,
     branch: "CSE",
     placement: 800000,
+    nirf: 35,
+    established: 1980,
+    campus: "100 Acres",
   },
 ];
