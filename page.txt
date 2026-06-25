@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { colleges } from "../data/colleges";
 import CollegeCard from "../components/CollegeCard";
@@ -23,43 +22,41 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#F5F5F7]">
       <div className="max-w-7xl mx-auto px-5 py-10">
-
-        {/* Navigation */}
-        <nav className="flex flex-col md:flex-row justify-between items-center gap-4 mb-10">
-          <h2 className="text-xl font-bold text-[#1D1D1F]">
+      <nav className="flex justify-between items-center mb-10">
+        <h2 className="text-xl font-bold text-[#1D1D1F]">
             College Discovery
-          </h2>
+              </h2>
 
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="/"
-              className="text-[#1D1D1F] hover:text-blue-600"
-            >
-              Home
-            </a>
+                <div className="flex gap-4">
+                    <a
+                          href="/"
+                                className="text-[#1D1D1F] hover:text-blue-600"
+                                    >
+                                          Home
+                                              </a>
 
-            <a
-              href="/colleges"
-              className="text-[#1D1D1F] hover:text-blue-600"
-            >
-              Colleges
-            </a>
+                                                  <a
+                                                        href="/colleges"
+                                                              className="text-[#1D1D1F] hover:text-blue-600"
+                                                                  >
+                                                                        Colleges
+                                                                            </a>
 
-            <a
-              href="/compare"
-              className="text-[#1D1D1F] hover:text-blue-600"
-            >
-              Compare
-            </a>
+                                                                                <a
+                                                                                      href="/compare"
+                                                                                            className="text-[#1D1D1F] hover:text-blue-600"
+                                                                                                >
+                                                                                                      Compare
+                                                                                                          </a>
 
-            <a
-              href="/recommend"
-              className="text-[#1D1D1F] hover:text-blue-600"
-            >
-              Recommend
-            </a>
-          </div>
-        </nav>
+                                                                                                              <a
+                                                                                                                    href="/recommend"
+                                                                                                                          className="text-[#1D1D1F] hover:text-blue-600"
+                                                                                                                              >
+                                                                                                                                    Recommend
+                                                                                                                                        </a>
+                                                                                                                                          </div>
+                                                                                                                                          </nav>
 
         {/* Hero */}
         <div className="text-center mb-12">
@@ -76,29 +73,30 @@ export default function Home() {
           <p className="mt-5 text-[#6E6E73] max-w-2xl mx-auto text-lg">
             Analyze placements, fees, rankings and career outcomes using real college data.
           </p>
-
           <div className="flex flex-wrap justify-center gap-4 mt-8">
-            <a
-              href="/colleges"
-              className="bg-blue-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-blue-700 transition"
-            >
-              Explore Colleges
-            </a>
 
             <a
-              href="/colleges"
-                className="bg-green-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-green-700 transition"
-                >
-                  Select Colleges To Compare
-            </a>
+                href="/colleges"
+                    className="bg-blue-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-blue-700 transition"
+                      >
+                          Explore Colleges
+                            </a>
 
-            <a
-              href="/recommend"
-              className="bg-purple-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-purple-700 transition"
-            >
-              Get Recommendations
-            </a>
-          </div>
+                              <a
+                                  href="/compare"
+                                      className="bg-green-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-green-700 transition"
+                                        >
+                                            Compare Colleges
+                                              </a>
+
+                                                <a
+                                                    href="/recommend"
+                                                        className="bg-purple-600 text-white px-6 py-3 rounded-2xl font-semibold hover:bg-purple-700 transition"
+                                                          >
+                                                              Get Recommendations
+                                                                </a>
+
+                                                                </div>
         </div>
 
         {/* Search */}
@@ -129,7 +127,6 @@ export default function Home() {
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-
           <div className="bg-white rounded-3xl p-6 border border-[#E5E5EA]">
             <p className="text-xs text-[#86868B] uppercase">
               Colleges
@@ -150,28 +147,27 @@ export default function Home() {
 
           <div className="bg-white rounded-3xl p-6 border border-[#E5E5EA]">
             <p className="text-xs text-[#86868B] uppercase">
-              Best NIRF
-            </p>
-            <h3 className="text-3xl font-bold mt-2">
-              #{Math.min(...colleges.map((c) => c.nirf))}
-            </h3>
-          </div>
+                Best NIRF
+                  </p>
+                    <h3 className="text-3xl font-bold mt-2">
+                        #{Math.min(...colleges.map((c) => c.nirf))}
+                          </h3>
+                          </div>
 
           <div className="bg-white rounded-3xl p-6 border border-[#E5E5EA]">
             <p className="text-xs text-[#86868B] uppercase">
-              Peak Package
-            </p>
-            <h3 className="text-3xl font-bold mt-2 text-green-600">
-              ₹
-              {(
-                Math.max(...colleges.map((c) => c.placement)) /
-                100000
-              ).toFixed(1)}
-              {" "}LPA
-            </h3>
-          </div>
-
-        </div>
+                Peak Package
+                  </p>
+                    <h3 className="text-3xl font-bold mt-2 text-green-600">
+                        ₹
+                            {(
+                            	      Math.max(...colleges.map((c) => c.placement)) /
+                            	            100000
+                            	                ).toFixed(1)}
+                            	                    {" "}LPA
+                            	                      </h3>
+                            	                      </div>
+                            )}
 
         {/* Selected Colleges */}
         {selected.length > 0 && (
@@ -182,9 +178,7 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-2">
               {selected.map((id) => {
-                const college = colleges.find(
-                  (c) => c.id === id
-                );
+                const college = colleges.find((c) => c.id === id);
 
                 return (
                   <button

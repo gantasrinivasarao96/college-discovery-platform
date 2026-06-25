@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+College Discovery Platform
 
-## Getting Started
+A modern College Discovery Platform built using Next.js, TypeScript, and Tailwind CSS. The application helps students explore, compare, and discover engineering colleges based on placements, fees, rankings, and other academic metrics.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Home Page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Search colleges by name
+- Dynamic statistics dashboard
+- Quick navigation
+- Compare college selection
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+College Listing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Search colleges
+- Filter by region
+- Filter by tier
+- Sort by rating
+- Sort by fees
+- Sort by NIRF rank
+- Sort by placement package
 
-## Learn More
+College Details
 
-To learn more about Next.js, take a look at the following resources:
+- College information
+- Fees structure
+- Placement package
+- NIRF ranking
+- Campus information
+- Establishment year
+- Branch information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+College Comparison
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Side-by-side comparison
+- Placement comparison
+- Fee comparison
+- Rating comparison
+- NIRF comparison
 
-## Deploy on Vercel
+Recommendation System
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Budget-based recommendations
+- College ranking suggestions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tech Stack
+
+Frontend
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+
+Data Layer
+
+- TypeScript Dataset
+- Static College Records
+
+Project Structure
+
+app/
+├── page.tsx
+├── colleges/page.tsx
+├── college/[id]/page.tsx
+├── compare/page.tsx
+└── recommend/page.tsx
+
+components/
+└── CollegeCard.tsx
+
+data/
+└── colleges.ts
+
+Installation
+
+git clone <repository-url>
+cd college-discovery-platform
+npm install
+
+Run Development Server
+
+npm run dev -- --webpack
+
+Open:
+
+http://localhost:3000
+
+Sample Features Demonstrated
+
+- College Search Engine
+- College Comparison System
+- Recommendation Engine
+- Dynamic Ranking Display
+- Responsive UI Design
+
+Future Enhancements
+
+- PostgreSQL Integration
+- Prisma ORM
+- Authentication System
+- Review System
+- Bookmark Feature
+- Multi-language Support
+- AI-Based College Recommendation
+- CSV Data Import
+- Admin Dashboard
+
+Author
+
+Ganta Srinivasa Rao
+
+B.Tech Computer Science & Engineering
+
+Ramachandra College of Engineering
+
+License
+
+MIT License
